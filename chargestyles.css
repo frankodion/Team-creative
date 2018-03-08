@@ -1,0 +1,11 @@
+body {background-color: darkgrey;
+	background-repeat: repeat;
+}
+h3 {color: white;
+	text-align: center;
+}
+p {font-family: verdana};
+		font-size: 20px; 
+}
+#h{border-color:red; border-width:3px dotted;
+}

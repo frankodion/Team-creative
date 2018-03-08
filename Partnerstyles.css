@@ -1,0 +1,60 @@
+.Menu{
+    float: right;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.Menu .Menubtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover;
+.Menu:hover .Menubtn{
+    background-color: red;
+    color: white;
+}
+
+.Menu-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Menu-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.Menu-content a:hover{
+    background-color: #ddd;
+}
+
+.Menu:hover .Menu-content{
+    display: block;
+}
+
+.text-danger{
+    background-color: darkgray;
+}
+.row4 .container .col-md-12 .scrolltext{
+    background-color: darkgrey;
+}
+section .partnership{
+    background-color: darkgray;
+}
+
